@@ -1,37 +1,29 @@
 @import url(http://fonts.googleapis.com/css?family=Ewert);
-@import url(http://fonts.googleapis.com/css?family=Almendra+Display);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Astloch);
 
 body {
-        color: black;
-        background-color: black;
-        font-size: 2.5em;
-        line-height: 1.4em;
+        color:  black;
+        background-color: white;
+        font-size: 2em;
+        line-height: 4em;
 }
 
-div {   width:200px;
-        height:100px; 
-        background-image: url("./2dRW5FG.jpg");
-        margin-top: 100px;
-        position:absolute;
-        left:320px;
-        top:100px;
-        z-index:-1;
-}
 
-h1 {
+
+h3 {
+        margin-top: 5%;
+        margin-bottom: 5%;
         text-align: center;
         font-family:"Ewert", Times, serif;
-        font-size: 2.65em;
+        font-size: 3em;
 }
 
-h4 {
-        margin-top: 1%;
-        margin-bottom: 1%;
-        font-family:"Almendra Display", Times, serif;
-        margin-top: 20px;
-        position:relative;
-        top:50px;
+h4{
+        font-family:"Rye Salt", Times, serif;
         text-align: center;
+        vertical-align: top;
+        font-color: black ;
 }
 
 h6 {
@@ -40,12 +32,14 @@ h6 {
         font-family:"Almendra Display", Times, serif;
         margin-top: 20px;
         position:relative;
-        top:60px;
-        text-align: center;
+        top:390px;
+        margin-left: 720px;
 }
 
 p {     font-family:"Abel", Times, serif;
-        
+        font-size: 1em;
+        line-height: 2em;
+        color: black;
         }
 
 img.displayed {
@@ -61,12 +55,15 @@ img.displayed {
         margin-top: 100px;
 }
 
-.image { 
-   position: absolute; 
-   width: 50%; /* for IE 6 */
-   top: 200px;
-   left: 400px;
+.boxed {
+        color: #E3E3C8;
+        background-color: #E3E3C8;
+        opacity: 0.65;
+        font-size: 2em;
+        line-height: 1.4em;
+        font-family:"Astloch", Times, serif;
+        text-align: center;
 }
 
-a:link {color:#D9DED3 ;} /* unvisited link */ 
-a:visited {color:#1C1729;} /* visited link */ 
+a:link {color:#9188A6 ;} /* unvisited link */ 
+a:visited {color:#3D1D26;} /* visited link */ 
