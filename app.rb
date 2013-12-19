@@ -10,4 +10,12 @@ class Profile < Sinatra::Application
 		erb :index
 	end
 
+	get "/developer" do
+		erb :developer
+	end
+
+	get "/lis" do
+		erb :lis
+	end
+
 end
